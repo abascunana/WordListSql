@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2016 Google Inc.
+4
+5Licensed under the Apache License, Version 2.0 (the "License");
+6you may not use this file except in compliance with the License.
+7You may obtain a copy of the License at
+8
+9    http://www.apache.org/licenses/LICENSE-2.0
+10
+11Unless required by applicable law or agreed to in writing, software
+12distributed under the License is distributed on an "AS IS" BASIS,
+13WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14See the License for the specific language governing permissions and
+15limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.android.example.wordlistsql"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="30"
+23-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="32" />
+24-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml
+25
+26    <application
+26-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:19:5-36:19
+27        android:allowBackup="true"
+27-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:20:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\Toni\.gradle\caches\transforms-3\249713548fb8d92d9c56becf07cdffea\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:21:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:22:9-41
+33        android:supportsRtl="true"
+33-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:23:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:24:9-40
+36        <activity
+36-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:25:9-33:20
+37            android:name="com.android.example.wordlistsql.MainActivity"
+37-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:25:19-47
+38            android:exported="true" >
+38-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:26:13-36
+39            <intent-filter>
+39-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:27:13-31:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:28:17-69
+40-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:28:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:30:17-77
+42-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:30:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.android.example.wordlistsql.EditWordActivity" />
+45-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:34:9-63
+45-->C:\Users\Toni\AndroidStudioProjects\WordListSql-Starter\app\src\main\AndroidManifest.xml:34:19-51
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toni\.gradle\caches\transforms-3\deb2977a7cc7baff4388183fe02413e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toni\.gradle\caches\transforms-3\deb2977a7cc7baff4388183fe02413e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+49            android:authorities="com.android.example.wordlistsql.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toni\.gradle\caches\transforms-3\deb2977a7cc7baff4388183fe02413e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toni\.gradle\caches\transforms-3\deb2977a7cc7baff4388183fe02413e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toni\.gradle\caches\transforms-3\deb2977a7cc7baff4388183fe02413e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toni\.gradle\caches\transforms-3\deb2977a7cc7baff4388183fe02413e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toni\.gradle\caches\transforms-3\deb2977a7cc7baff4388183fe02413e9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Toni\.gradle\caches\transforms-3\cd6e54f1b89943b093f18df670cdc9a6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Toni\.gradle\caches\transforms-3\cd6e54f1b89943b093f18df670cdc9a6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Toni\.gradle\caches\transforms-3\cd6e54f1b89943b093f18df670cdc9a6\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>
